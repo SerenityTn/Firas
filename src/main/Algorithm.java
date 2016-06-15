@@ -1,4 +1,4 @@
-package java;
+package main;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -11,7 +11,7 @@ import java.util.List;
  *
  * @author MASTER
  */
-public class Main {
+public class Algorithm {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
 		String line = null;

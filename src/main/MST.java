@@ -1,4 +1,4 @@
-package java;
+package main;
 
 public class MST {
 	private static int V = 0;
