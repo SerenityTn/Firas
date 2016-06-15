@@ -1,4 +1,4 @@
-package javaapplication6;
+package java;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -14,7 +14,6 @@ import java.util.List;
 public class Main {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
-
 		String line = null;
 		List<String[]> list = new ArrayList<String[]>();
 		BufferedReader reader = new BufferedReader(new FileReader("C:/test2.txt"));
@@ -26,7 +25,6 @@ public class Main {
 		for (String[] stringArr : list) {
 			for (String str : stringArr) {
 				System.out.print(str + " ");
-
 			}
 			System.out.println("");
 			i++;
@@ -38,7 +36,6 @@ public class Main {
 			for (String str : stringArr) {
 				graph[a][b] = Integer.valueOf(str);
 				b++;
-
 			}
 			a++;
 			b = 0;

@@ -1,4 +1,4 @@
-package javaapplication6;
+package java;
 
 public class MST {
 	private static int V = 0;
